@@ -1,13 +1,238 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body{
+    background: #f2f2f2;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
 }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.logo span{
+    color: #ee0847;
+}
+
+.cart-i{
+    font-size: 24px;
+    color: #ee0847;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+ 
+
+/*Home*/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.pizza{
+    max-width: 600px;
+    width: 100%;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content h1{
+    font-size: 50px;
+}
+
+.text-content p{
+    font-size: 20px;
+}
+
+.btn{
+    border: none;
+    background-color: #ee0847;
+    color: #fff;
+    padding: 1rem 1.8rem;
+    cursor: pointer;
+}
+
+
+/* Menu */
+
+.title{
+    text-align: center;
+}
+
+.menu-list-wrapper{
+    margin: 3rem 0;
+}
+
+
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.item-container{
+    border: 1px solid #ccc;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    background: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.item-container.active{
+    background: #ee0847;
+}
+
+/*Obrazky pri kliknutí na danú ponuku*/
+
+
+.pizza-img{
+    height: 200px;
+    width: 200px;
+    pointer-events: none;
+}
+
+
+.pizza-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.pizza-img-container{
+    background: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    border-radius: 25px;
+    box-shadow: -2px -1px 17px -11px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description{
+    text-align: center;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
